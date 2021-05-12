@@ -1,0 +1,157 @@
+* {
+  font-family: hind, Arial, Helvetica, sans-serif;
+}
+
+header {
+  border-bottom: 2px solid #000;
+  width: 100%;
+  height: 102px;
+  background-color: #377C9E;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+header img {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  background-color: none;
+}
+
+a:before {
+  content: "";
+  display: block;
+  height: 20px;
+  width: 5px;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+header ul {
+  margin-top: 45px;
+  text-align: center;
+  width: auto;
+  height: 20px;
+  background-color: none;
+}
+
+header li {
+  background-color: none;
+  text-align: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin-left: 20px;
+  list-style: none;
+}
+
+header li:hover {
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagem {
+  display: flex;
+}
+
+.gui {
+  color: #5EBCEB;
+  text-align: center;
+  background-color: none;
+  width: 350px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: -2px;
+  margin-top: 22px;
+}
+
+.gui::before {
+  content: "";
+  width: 2px;
+  height: 50px;
+  position: absolute;
+  background-color: #000;
+  margin-left: -145px;
+  margin-top: 7px;
+}
+
+/*MAIN */
+
+section {
+  width: 100%;
+  height: 420px;
+  position: absolute;
+  margin-top: 96px;
+  left: 0;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+}
+
+.titulo {
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 35px;
+  margin-left: 393px;
+  position: absolute;
+  bottom: none;
+  top: 154px;
+}
+
+.slogan {
+  left: 585px;
+  margin: 0 auto;
+  position: absolute;
+  font-size: 14px;
+  font-weight: bold;
+  top: 284px;
+  color: #fff;
+}
+
+.slogan::before {
+  content: "";
+  width: 110px;
+  height: 2px;
+  position: absolute;
+  background-color: #fff;
+  left: 125px;
+  bottom: 40px;
+}
+
+.slogan::after {
+  content: "";
+  width: 110px;
+  height: 2px;
+  position: absolute;
+  background-color: #fff;
+  left: 125px;
+  top: 42px;
+}
+
+.principal {
+  text-align: center;
+  color: #fff;
+  width: 100px;
+  font-weight: 700;
+  margin: 0 auto;
+  font-size: 12px;
+  position: relative;
+  bottom: 50px;
+  background-color: #960064;
+  border-radius: 3px;
+  padding: 13px 14px 13px 13px;
+}
+
+.principal:hover {
+  background-color: #5EBCEB;
+}
+
