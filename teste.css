@@ -10,6 +10,7 @@ header {
   position: fixed;
   top: 0px;
   left: 0px;
+  z-index: 10;
 }
 
 header img {
@@ -24,7 +25,6 @@ a:before {
   height: 20px;
   width: 5px;
   background-color: #000;
-  margin: 0 auto;
 }
 
 header ul {
@@ -48,6 +48,7 @@ header li {
 
 header li:hover {
   color: #fff;
+  transition: 0.22s;
 }
 
 .menu {
@@ -81,14 +82,16 @@ header li:hover {
   margin-top: 7px;
 }
 
-/*MAIN */
+/*section */
 
 section {
   width: 100%;
-  height: 420px;
+  height: 440px;
   position: absolute;
   margin-top: 96px;
   left: 0;
+  background-image: url('meio-logo.png');
+  background-size: cover;
 }
 
 section img {
@@ -97,55 +100,45 @@ section img {
 }
 
 .titulo {
+  text-align: center;
   letter-spacing: 1px;
   color: #fff;
   font-weight: bold;
   font-size: 35px;
-  margin-left: 393px;
-  position: absolute;
-  bottom: none;
-  top: 154px;
+  display: block;
+  position: relative;
+  top: 170px;
 }
 
 .slogan {
-  left: 585px;
-  margin: 0 auto;
-  position: absolute;
+  text-align: center;
+  display: block;
   font-size: 14px;
   font-weight: bold;
-  top: 284px;
+  top: 180px;
   color: #fff;
+  position: relative;
+  letter-spacing: 0.03em;
 }
 
-.slogan::before {
+.slogan::before, .slogan::after {
   content: "";
   width: 110px;
   height: 2px;
-  position: absolute;
+  display: block;
   background-color: #fff;
-  left: 125px;
-  bottom: 40px;
-}
-
-.slogan::after {
-  content: "";
-  width: 110px;
-  height: 2px;
-  position: absolute;
-  background-color: #fff;
-  left: 125px;
-  top: 42px;
+  margin: 20px auto 20px auto;
 }
 
 .principal {
+  margin: 0 auto;
   text-align: center;
   color: #fff;
   width: 100px;
   font-weight: 700;
-  margin: 0 auto;
   font-size: 12px;
   position: relative;
-  bottom: 50px;
+  top: 210px;
   background-color: #960064;
   border-radius: 3px;
   padding: 13px 14px 13px 13px;
@@ -153,5 +146,203 @@ section img {
 
 .principal:hover {
   background-color: #5EBCEB;
+  transition: 0.22s;
 }
 
+/*meio */
+
+main {
+  width: 100%;
+  height: 650px;
+  background-color: #fff;
+  position: absolute;
+  top: 544px;
+  left: 0;
+  border-bottom: 5px solid #377C9E;
+  border-top: 5px solid #377C9E;
+}
+
+.principal1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  color: #5EBCEB;
+  margin: 0 auto 20px auto;
+  position: relative;
+  top: 50px;
+}
+
+.principal1::after {
+  content: "";
+  width: 90px;
+  height: 2px;
+  background-color: #000;
+  display: block;
+  margin: 20px auto 0px auto;
+  box-shadow: 2px 2px 6px #555555;
+}
+
+.aps {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  top: 140px;
+  height: 387px;
+  border: none;
+}
+
+.ap1, .ap2, .ap3 {
+  width: 383px;
+  height: 386px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 2px 2px 6px #c4c4c4;
+}
+
+.foto-ap {
+  border-radius: 5px;
+  margin-top: -10px;
+  margin-left: 2px;
+}
+
+.ap1 h1, .ap2 h1, .ap3 h1 {
+  padding-top: 15px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #377C9E;
+  color: #fff;
+  width: 100%;
+  height: 30px;
+  margin-top: 0;
+}
+
+.casa, .carro, .varanda {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 20px 15px;
+}
+
+.guaianazes {
+  font-size: 18px;
+  color: #960064;
+  margin: 10px 10px;
+}
+
+.descri {
+  display: flex;
+}
+
+.descri1 li {
+  list-style: none;
+  margin: 23px -20px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+.valor {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  position: relative;
+  bottom: 100px;
+  left: 150px;
+}
+
+.valorn {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  bottom: 100px;
+  left: 150px;
+}
+
+/* plantas */
+
+.plantas {
+  position: absolute;
+  width: 100%;
+  height: 640px;
+  top: 1205px;
+  left: 0px;
+  background-color: #fff;
+}
+
+.plantas h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  color: #960064;
+  margin: 0 auto 20px auto;
+  position: relative;
+  top: 50px;
+}
+
+.plantas h1::after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #000;
+  display: block;
+  margin: 20px auto 0px auto;
+  box-shadow: 2px 2px 6px #555555;
+}
+
+.imagens-planta {
+  width: 100%;
+  height: 500px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.area1 {
+  margin-right: 100px;
+  margin-bottom: 25px;
+}
+
+.seta1, .seta2 {
+  position: relative;
+  bottom: 140px;
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  background-color: #377C9E;
+  opacity: none;
+  top: 1845px;
+  left: 0;
+}
+
+.info-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contato {
+  margin-top: 10px;
+  color: #fff;
+}
+
+.contato h1 {
+  font-size: 20px;
+}
+
+.contato-logo img {
+  margin-top: 40px;
+  margin-left: 20px;
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
