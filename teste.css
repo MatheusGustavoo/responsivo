@@ -5,7 +5,7 @@
 header {
   border-bottom: 2px solid #000;
   width: 100%;
-  height: 102px;
+  height: 400;
   background-color: #377C9E;
   position: fixed;
   top: 0px;
@@ -14,6 +14,10 @@ header {
 }
 
 header img {
+  width: 153.525px;
+  height: 41px;
+  padding-bottom: 22px;
+  position: relative;
   margin-top: 30px;
   margin-bottom: 10px;
   background-color: none;
@@ -52,8 +56,11 @@ header li:hover {
 }
 
 .menu {
+  align-items: center;
+  background-color: none;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .imagem {
@@ -68,13 +75,13 @@ header li:hover {
   height: 40px;
   font-weight: bold;
   font-size: 22px;
-  margin-left: -2px;
+  margin-left: -15px;
   margin-top: 22px;
 }
 
 .gui::before {
   content: "";
-  width: 2px;
+  width: 1.5px;
   height: 50px;
   position: absolute;
   background-color: #000;
@@ -88,7 +95,7 @@ section {
   width: 100%;
   height: 440px;
   position: absolute;
-  margin-top: 96px;
+  margin-top: 97px;
   left: 0;
   background-image: url('meio-logo.png');
   background-size: cover;
