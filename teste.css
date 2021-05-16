@@ -385,7 +385,8 @@ footer {
     bottom: 20px;
   }
   section {
-    width: 100%;
+     section {
+    width: 768px;
     height: 600px;
     background-position: center;
     background-image: url('meio-logo.png');
