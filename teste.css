@@ -32,7 +32,7 @@ a:before {
 }
 
 header ul {
-  margin-top: 45px;
+  margin-top: 23px;
   text-align: center;
   width: auto;
   height: 20px;
@@ -75,7 +75,7 @@ header li:hover {
   height: 40px;
   font-weight: bold;
   font-size: 22px;
-  margin-left: -15px;
+  margin-left: -17px;
   margin-top: 22px;
 }
 
@@ -97,6 +97,7 @@ section {
   position: absolute;
   margin-top: 97px;
   left: 0;
+  right: 0;
   background-image: url('meio-logo.png');
   background-size: cover;
 }
@@ -165,6 +166,7 @@ main {
   position: absolute;
   top: 544px;
   left: 0;
+  right: 0;
   border-bottom: 5px solid #377C9E;
   border-top: 5px solid #377C9E;
 }
@@ -190,6 +192,7 @@ main {
 }
 
 .aps {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -278,6 +281,7 @@ main {
   height: 640px;
   top: 1205px;
   left: 0px;
+  right: 0;
   background-color: #fff;
 }
 
@@ -306,6 +310,7 @@ main {
   height: 500px;
   border: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -330,6 +335,7 @@ footer {
   opacity: none;
   top: 1845px;
   left: 0;
+  right: 0;
 }
 
 .info-footer {
@@ -352,4 +358,41 @@ footer {
   position: relative;
   width: 30px;
   height: 30px;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width:768px) {
+  .conteiner {
+    width: 300px;
+  }
+  .foto-planta {
+    width: 300px;
+  }
+  header {
+    position: fixed;
+  }
+  .menu {
+    position: relative;
+    right: 60px;
+  }
+  header ul {
+    margin-left: 30px;
+  }
+  header li {
+    padding: 5px 2px;
+    position: relative;
+    bottom: 20px;
+  }
+  section {
+    width: 500px;
+    height: 600px;
+    background-position: center;
+    position: absolute;
+    z-index: 0;
+  }
+  main {
+    position: absolute;
+    top: 800px;
+  }
 }
