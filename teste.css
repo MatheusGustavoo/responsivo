@@ -364,16 +364,15 @@ footer {
 
 @media only screen and (max-width:768px) {
   .conteiner {}
-  .foto-planta {
-    width: 300px;
-  }
+  /* HEADER */
   header {
     position: fixed;
     width: 100%;
   }
   .menu {
     position: relative;
-    right: 60px;
+    left: 0px;
+    right: 0px;
   }
   header ul {
     margin-left: 30px;
@@ -383,6 +382,7 @@ footer {
     position: relative;
     bottom: 20px;
   }
+  /* LOGO MEIO */
   section {
     width: 700px;
     height: 600px;
@@ -394,18 +394,37 @@ footer {
     background-image: url('meio-logo.png');
     background-size: cover;
   }
+  /* EMPREENDIMENTOS */
   main {
     position: absolute;
-    top: 800px;
+    width: 700px;
+    height: 1600px;
+    top: 764px;
   }
-  .plantas {
-    top: 4000px;
-    background-color: #555555;
-  }
-  footer {
-    top: 5000px;
+  .aps {
+    left: 63px;
+    margin-bottom: 20px;
   }
   .ap1, .ap2, .ap3 {
-    width: 300px;
+    width: 360px;
+    margin-bottom: 40px;
+  }
+  .foto-ap {
+    width: 360px;
+  }
+  /* PLANTA */
+  .plantas {
+    width: 700px;
+    height: 1100px;
+    top: 2375px;
+    background-color: none;
+  }
+  .foto-planta {
+    width: 100px;
+  }
+  /* FOOTER */
+  footer {
+    width: 700px;
+    top: 5000px;
   }
 }
