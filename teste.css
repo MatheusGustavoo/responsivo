@@ -415,16 +415,48 @@ footer {
   /* PLANTA */
   .plantas {
     width: 700px;
-    height: 1100px;
+    height: 1000px;
     top: 2375px;
     background-color: none;
   }
+  .imagens-planta {
+    position: relative;
+    top: 80px;
+  }
   .foto-planta {
-    width: 100px;
+    margin-left: 20px;
+    width: 400px;
+    height: 200px;
+  }
+  .seta1, .seta2 {
+    position: relative;
+    width: 20px;
+  }
+  .flecha1 {
+    position: relative;
+    left: 30px;
+    top: 255px;
+  }
+  .flecha2 {
+    position: relative;
+    right: 40px;
+    bottom: 150px;
+  }
+  .flecha3 {
+    bottom: 170px;
+    left: 360px;
+  }
+  .flecha4 {
+    bottom: 70px;
+  }
+  .area1 {
+    margin-top: 50px;
+    margin-left: 50px;
   }
   /* FOOTER */
   footer {
     width: 700px;
-    top: 5000px;
+    top: 3275px;
+    bottom: 0;
   }
 }
