@@ -429,6 +429,7 @@ footer {
     height: 200px;
   }
   .seta1, .seta2 {
+    visibility: hidden;
     position: relative;
     width: 20px;
   }
