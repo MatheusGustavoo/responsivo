@@ -306,23 +306,41 @@ main {
 }
 
 .imagens-planta {
+  display: flex;
   width: 100%;
   height: 500px;
   border: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
+  background-color: none;
 }
 
-.area1 {
-  margin-right: 100px;
-  margin-bottom: 25px;
+.area0 {
+  background-color: none;
 }
 
-.seta1, .seta2 {
-  position: relative;
-  bottom: 140px;
+.area0 li {
+  margin: 0 auto 20px;
+  display: flex;
+}
+
+.area0 img {
+  max-width: 300px;
+}
+
+.descr-1 {
+  margin-left: 200px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.flecha1 {
+  margin-bottom: 130px;
+  margin-right: 20px;
+}
+
+.flecha3 {
+  margin-bottom: 140px;
+  margin-left: 20px;
 }
 
 /* footer */
@@ -360,10 +378,39 @@ footer {
   height: 30px;
 }
 
+/* JAVASCRIPT */
+
+.ativo {
+  display: block;
+}
+
+.descr-1 img {
+  margin-left: 160px;
+  margin-bottom: 0px;
+  display: none;
+}
+
+.descr-1 img.ativo {
+  margin-left: 200px;
+  margin-bottom: 40px;
+  display: block !important;
+  animation: show .5s forwards;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+  }
+}
+
 /* MEDIA QUERY */
 
 @media only screen and (max-width:768px) {
-  .conteiner {}
   /* HEADER */
   header {
     position: fixed;
