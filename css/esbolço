@@ -1,0 +1,259 @@
+ <div class="area0 js-div">
+          <img class="seta1 flecha1 js-seta" src="img/seta-esquerda.png">
+          <img class="foto-planta " src="img/areas.png">
+
+        </div>
+        <div class="area0 js-div">
+          <img class="img-ap js-img " src="img/planta.png">
+          <img class="seta2 flecha3 js-seta" src="img/proximo.png">
+
+        </div>
+
+
+.flex1{
+  
+  font-size: 40px;
+  width: 20px;
+  height: 10px;
+  color: #fff
+  ;
+
+}
+
+.flex2{
+  
+  font-size: 40px;
+  width: 20px;
+  height: 10px;
+  color: #fff
+  ;
+
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+
+
+
+
+margin-left: 393px;
+  position: absolute;
+  bottom: none;
+  top: 154px;
+
+
+
+.ap1 img {
+  border-radius: 5px;
+  margin-top: -10px;
+  margin-left: 2px;
+}
+
+.ap2 img {
+  border-radius: 5px;
+  margin-top: -10px;
+  margin-left: 2px;
+}
+
+.ap3 img {
+  border-radius: 5px;
+  margin-top: -10px;
+  margin-left: 2px;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="logo-gui.png" type="image/x-icon">
+  <link rel="stylesheet" href="coluna.css">
+  <link rel="stylesheet" href="teste.css">
+  <title>Projeto rpincipal</title>
+</head>
+
+<body>
+  <header>
+    <div class="conteiner ">
+      <div class="menu">
+        <div class="imagem">
+          <img src="lgo vivaz oficial.png">
+
+          <div class="gui">
+            <p>GUILHERME MACHADO</p>
+          </div>
+        </div>
+
+        <div class="option ">
+          <ul class="js-header">
+            <li>LOCALIDADE</li>
+            <li>CONTATO</li>
+            <li>SOBRE</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+  <section class="logo-meio js-logo">
+
+    <h1 class="titulo">Quer realizar seu sonho da casa própria?</h1>
+    <p class="slogan">“No futuro você vai comemorar esta decisão de compra!”</p>
+    <p class="principal btn">ORÇAMENTO</p>
+  </section>
+
+  <main class="meio js-meio">
+
+    <div class="conteiner">
+      <h1 class="principal1">
+        EMPREENDIMENTOS
+      </h1>
+
+      <div class="aps">
+
+        <div class="ap1">
+          <h1>LANÇAMENTOS</h1>
+          <img class="foto-ap" src="empreendimento.jpg">
+          <h2 class="guaianazes">Estação guaianazes</h2>
+
+          <div class="descri">
+            <div class="logos">
+              <img class="casa" src="home.png">
+              <img class="carro" src="carro.png">
+              <img class="varanda" src="varanda-e-porta.png">
+            </div>
+
+            <div class="descri1">
+              <ul>
+                <li>Quarto</li>
+                <li>Carros</li>
+                <li>Varanda</li>
+              </ul>
+              <p class="valor">A partir de</p>
+              <p class="valorn">R$144 mil</p>
+
+
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+        <div class="ap2">
+          <h1>LANÇAMENTOS</h1>
+          <img class="foto-ap" src="empreendimento.jpg">
+          <h2 class="guaianazes">Estação guaianazes</h2>
+          <div class="descri">
+            <div class="logos">
+              <img class="casa" src="home.png">
+              <img class="carro" src="carro.png">
+              <img class="varanda" src="varanda-e-porta.png">
+            </div>
+
+            <div class="descri1">
+              <ul>
+                <li>Quarto</li>
+                <li>Carros</li>
+                <li>Varanda</li>
+                <p class="valor">A partir de</p>
+                <p class="valorn">R$144 mil</p>
+
+
+
+              </ul>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="ap3">
+          <h1>LANÇAMENTOS</h1>
+          <img class="foto-ap" src="empreendimento.jpg">
+          <h2 class="guaianazes">Estação guaianazes</h2>
+          <div class="descri">
+            <div class="logos">
+              <img class="casa" src="home.png">
+              <img class="carro" src="carro.png">
+              <img class="varanda" src="varanda-e-porta.png">
+            </div>
+
+            <div class="descri1">
+              <ul>
+
+                <li>Quarto</li>
+                <li>Carros</li>
+                <li>Varanda</li>
+
+              </ul>
+              <p class="valor">A partir de</p>
+              <p class="valorn">R$144 mil</p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </main>
+
+  <div class="plantas js-meio">
+    <div class="conteiner">
+      <h1 class="plantas-titulo">PLANTAS</h1>
+
+      <div class="imagens-planta">
+        <div class="areas">
+          <img class="seta1 flecha1 js-seta" src="seta-esquerda.png">
+          <img class="foto-planta js-img" src="areas.png">
+          <img class="seta2 flecha4 js-seta" src="proximo.png">
+        </div>
+        <div class="areas area1">
+
+          <img class="seta1 flecha2 js-seta" src="seta-esquerda.png">
+          <img class="img-ap js-img" src="planta.png">
+          <img class="seta2 flecha3 js-seta" src="proximo.png">
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="conteiner">
+      <div class="info-footer">
+        <div class="contato">
+          <h1>Telefone: 11953738 </h1>
+          <p> ®Feito por Matheus Gustavo
+
+
+          </p>
+        </div>
+        <div class="contato-logo">
+          <img src="whatsapp.png">
+          <img src="instagram.png">
+          <img src="facebook.png">
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
