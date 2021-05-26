@@ -1,5 +1,6 @@
 * {
   font-family: hind, Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 header {
@@ -23,14 +24,6 @@ header img {
   background-color: none;
 }
 
-a:before {
-  content: "";
-  display: block;
-  height: 20px;
-  width: 5px;
-  background-color: #000;
-}
-
 header ul {
   margin-top: 23px;
   text-align: center;
@@ -45,12 +38,17 @@ header li {
   display: inline-block;
   font-size: 16px;
   font-weight: 600;
-  color: #000;
+  color: none;
   margin-left: 20px;
   list-style: none;
+  text-decoration: none;
 }
 
-header li:hover {
+header a {
+  color: #000;
+}
+
+header li a:hover {
   color: #fff;
   transition: 0.22s;
 }
@@ -93,7 +91,7 @@ header li:hover {
 
 section {
   width: 100%;
-  height: 440px;
+  height: 515px;
   position: absolute;
   margin-top: 97px;
   left: 0;
@@ -161,10 +159,10 @@ section img {
 
 main {
   width: 100%;
-  height: 650px;
-  background-color: #fff;
+  height: 760px;
+  background-color: none;
   position: absolute;
-  top: 544px;
+  top: 620px;
   left: 0;
   right: 0;
   border-bottom: 5px solid #377C9E;
@@ -279,11 +277,11 @@ main {
 .plantas {
   position: absolute;
   width: 100%;
-  height: 640px;
-  top: 1205px;
+  height: 670px;
+  top: 1410px;
   left: 0px;
   right: 0;
-  background-color: #fff;
+  background-color: none;
 }
 
 .plantas h1 {
@@ -352,7 +350,7 @@ footer {
   height: 120px;
   background-color: #377C9E;
   opacity: none;
-  top: 1845px;
+  top: 2100px;
   left: 0;
   right: 0;
 }
@@ -380,6 +378,10 @@ footer {
 }
 
 /* JAVASCRIPT */
+
+.js-div li {
+  cursor: pointer;
+}
 
 .ativo {
   display: block;
@@ -409,6 +411,15 @@ footer {
   }
 }
 
+.aps {
+  opacity: 0;
+}
+
+.aps.ativar-scroll {
+  opacity: 1;
+  transition: 2s;
+}
+
 /* MEDIA QUERY */
 
 /* LAPTOP */
@@ -436,6 +447,9 @@ footer {
 
 @media only screen and (max-width:768px) {
   /* HEADER */
+  .descr-1 {
+    display: none;
+  }
   header {
     position: fixed;
     width: 100%;
@@ -471,6 +485,7 @@ footer {
     width: 700px;
     height: 1600px;
     top: 764px;
+    background-color: none;
   }
   .aps {
     left: 63px;
